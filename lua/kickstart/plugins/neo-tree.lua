@@ -18,6 +18,8 @@ return {
       window = {
         mappings = {
           ['\\'] = 'close_window',
+          ['\\P'] = 'toggle_preview',
+          ['\\h'] = 'toggle_hidden',
         },
       },
     },
