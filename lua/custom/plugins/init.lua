@@ -2,4 +2,7 @@
 --  I promise not to create any merge conflicts in this directory :)
 --
 -- See the kickstart.nvim README for more information
+
+vim.env.NODE_EXTRA_CA_CERTS = '/home/amd/Downloads/certificates/AMD_CA.crt'
+vim.o.relativenumber = true
 return {}
