@@ -5,4 +5,6 @@
 
 vim.env.NODE_EXTRA_CA_CERTS = '/home/amd/Downloads/certificates/AMD_CA.crt'
 vim.o.relativenumber = true
+vim.keymap.set('n', '<M-j>', '<cmd>cnext<CR>')
+vim.keymap.set('n', '<M-k>', '<cmd>cprev<CR>')
 return {}
